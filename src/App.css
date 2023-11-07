@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  background-color: #202020;
+}
+
+.App{
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+.container{
+  height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: linear-gradient(to right, #6BC4FF, #009BFF);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
